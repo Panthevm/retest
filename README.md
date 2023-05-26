@@ -7,7 +7,7 @@ Key features include `click`, `fill`, and `datafy` which help emulate and valida
 ## Features
 
 ### click
-The click function in the Retest library simulates a user action of clicking on an element, and notably, it supports event bubbling. 
+The click function in the Retest library simulates a user action of clicking on an element, and notably, it supports event bubbling and event propagation.
 ```clj
 (defn view
   []
