@@ -1,13 +1,13 @@
 # retest
 
-Retest is a robust library that provides a suite of functions specifically designed for testing applications built with Reagent and Re-frame in ClojureScript. 
+Retest provides a suite of functions specifically designed for testing applications built with Reagent and Re-frame in ClojureScript. 
 
 Key features include `click`, `fill`, and `datafy` which help emulate and validate diverse user interactions within your components. This powerful toolkit streamlines the testing process, thereby enhancing the overall reliability and robustness of your applications.
 
 ## Features
 
 ### click
-The click function in the Retest library simulates a user action of clicking on an element, and notably, it supports event bubbling and event propagation.
+The click function simulates a user action of clicking on an element, and notably, it supports event bubbling and event propagation:
 ```clj
 (defn view
   []
@@ -66,10 +66,10 @@ The datafy function allows you to extract the data from your components. Here's 
 
 ;; =>
 ;; {:c {:a "1"
-;;     :b "1"
-;;     :d [{:e "1"}
-;;         {:e "2"}
-;;         {:e "3"}]}}
+;;      :b "1"
+;;      :d [{:e "1"}
+;;          {:e "2"}
+;;          {:e "3"}]}}
 ```
 
 ## References
