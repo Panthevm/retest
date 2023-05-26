@@ -1,6 +1,8 @@
 # retest
 
-Retest is a robust library that provides a suite of functions specifically designed for testing applications built with Reagent and Re-frame in ClojureScript. Key features include `click`, `fill`, and `datafy` which help emulate and validate diverse user interactions within your components. This powerful toolkit streamlines the testing process, thereby enhancing the overall reliability and robustness of your applications.
+Retest is a robust library that provides a suite of functions specifically designed for testing applications built with Reagent and Re-frame in ClojureScript. 
+
+Key features include `click`, `fill`, and `datafy` which help emulate and validate diverse user interactions within your components. This powerful toolkit streamlines the testing process, thereby enhancing the overall reliability and robustness of your applications.
 
 ## Features
 
