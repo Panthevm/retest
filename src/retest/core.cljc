@@ -1,5 +1,4 @@
-(ns retest.core
-  (:require [clojure.zip :as z]))
+(ns retest.core)
 
 (defn get-node-tag
   [node]
